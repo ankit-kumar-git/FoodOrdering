@@ -1,0 +1,102 @@
+/* Navigation */
+
+#navbar::before{
+    height: 10%;
+    
+}
+#navbar{
+    flex-direction:column;
+    width: 100%;
+}
+
+#navbar ul{
+    margin-top:23px;
+}
+#navbar ul li a{
+     font-size: 1.5rem;
+     padding: 0px 8px;
+} 
+#navbar #logo{
+    width: 14vw;
+    margin: 2px 3px;
+    height:12vh;
+}
+#navbar #logo img{
+    width: 14vw;
+    height:12vh;
+}
+
+
+/* HOME */
+
+
+
+#home{
+    padding: 3px 18px;
+    height:600px;
+    width: 200vw;
+}
+#home::before{
+    height:108%;
+    width: 220vw;
+}
+#home p{
+    font-size: 1.4rem;
+    padding-top: 6px;
+    
+}
+.h-primary{
+    font-size: 2.8rem;
+        padding: 9px;
+} 
+
+/* Services */
+
+
+
+#services-container{
+    width: 210vw;
+}
+#services .box img {
+   width: 57vw;
+   }
+ #services{
+   flex-direction: column;
+         }
+
+
+         /* Clients */
+
+
+
+         #client-section::before{
+            width:220vw;
+        }
+        #client-section {
+            width: 205vw;
+            }
+         #clients img {
+            height: 65px;
+        }
+        .client-item {
+           
+            margin: 8px 15px;
+        }
+
+
+
+ /* Contact Us */
+
+#contacts::before {
+    width:220vw;
+}
+#contacts{
+    width:205vw;
+}
+
+
+
+/* Footer */
+footer {
+    width: 220vw;
+}
